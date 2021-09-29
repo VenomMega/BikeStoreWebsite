@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/sidebar.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <nav class="navbar navbar-expand align-middle">
+        <a href="#" class="navbar-brand">Bikes <br> like <br> daggers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+          </ul>
+            <ul class="navbar-nav ml-auto">
+              <!-- <li class="nav-item text-center"><a href="#" class="nav-link navbarText"><i class="fas fa-user navbarIcon"></i><br>Sign in</a></li> -->
+              <!-- <li class="nav-item text-center"><a href="#" class="nav-link navbarText"><i class="fas fa-map-marked-alt navbarIcon"></i><br>Stores</a></li> -->
+              <li>
+                <div id="mySidebar" class="sidebar">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#"><i class="fas fa-user navbarIcon"></i>  Sign in</a>
+                  <a href="#"><i class="fas fa-map-marked-alt navbarIcon"></i>  Stores</a>
+                  <a href="#">Contacts</a>
+                  <a href="#"></a>
+                </div>
+                
+                <div id="main">
+                  <button class="openbtn" onclick="openNav()">&#9776;</button>
+                </div>
+              </li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row categories">
+            <div class="col">
+                <ul class="nav categ">
+                    <li class="col nav-item">
+                      <a class="nav-link categories1 dropdown-toggle" role="button" id="bikes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Bikes</a>
+                      <div class="dropdown-menu col dropBikes" aria-labelledby="bikes">
+                        <a class="dropdown-item bikeItem" href="#">Mountain</a>
+                        <a class="dropdown-item bikeItem" href="#">For kids</a>
+                        <a class="dropdown-item bikeItem" href="#">City</a>
+                      </div>
+                    </li>
+                    
+                    <li class="col nav-item">
+                      <a class="nav-link categories1 dropdown-toggle" role="button" id="parts" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Parts</a>
+                      <div class="dropdown-menu col dropBikes" aria-labelledby="bikes">
+                        <a class="dropdown-item bikeItem" href="#">Mountain</a>
+                        <a class="dropdown-item bikeItem" href="#">For kids</a>
+                        <a class="dropdown-item bikeItem" href="#">City</a>
+                      </div>
+                    </li>
+                    <li class="col nav-item">
+                      <a class="nav-link categories1 dropdown-toggle" role="button" id="bikes" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Accessories</a>
+                      <div class="dropdown-menu col dropBikes" aria-labelledby="bikes">
+                        <a class="dropdown-item bikeItem" href="#">Mountain</a>
+                        <a class="dropdown-item bikeItem" href="#">For kids</a>
+                        <a class="dropdown-item bikeItem" href="#">City</a>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col p-0">
+            <div class="jumbotron jumbotron-fluid text-center">
+              <h1 class="display-1 mainText align-self-center">Make your life a little faster</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col d-flex justify-content-around text-center align-middle test-col">
+            <a href="#" class="rounded"><div class="categor indoorCycling"><span class="rounded">Indoor Cycling</span></div></a>
+            <a href="#" class="rounded"><div class="categor bikeParts"><span class="rounded">Bike Parts</span></div></a>
+            <a href="#" class="rounded"><div class="categor bikeApparel"><span class="rounded">Bike Apparel</span></div></a>
+            <a href="#" class="rounded"><div class="categor bikes"><span class="rounded">Bikes</span></div></a>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col">
+            <h2 class="text-center mb-5 secondText"><span>&#9733;</span> Great Bikes For New Riders <span>&#9733;</span></h1>
+            <div class="card-group">
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+              <div class="card">
+                <a href="">
+                  <img src="https://www.iconpacks.net/icons/1/free-bicycle-icon-1054-thumb.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                  <h5 class="card-title">Bike</h5>
+                  <p class="card-text text-muted">Type: smth</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="row mb-5">
+          <div class="col dash"></div>
+        </div>
+
+        <div class="row">
+          <div class="col text-center"><h2>Advantages of our customers</h2></div>
+        </div>
+        <div class="row mb-5">
+          <div class="col">
+            <div class="card-deck text-center">
+              <div class="card">
+                <i class="fas fa-truck card-img-top"></i>
+                <div class="card-body">
+                  <p class="card-text">Delivery throughout Kazakhstan</p>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-scroll card-img-top"></i>
+                <div class="card-body">
+                  <p class="card-text">2-year warranty</p>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-shopping-cart card-img-top"></i>
+                <div class="card-body">
+                  <p class="card-text">Installment plan</p>
+                </div>
+              </div>
+              <div class="card">
+                <i class="fas fa-thumbs-up card-img-top"></i>
+                <div class="card-body">
+                  <p class="card-text">Only original brands</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+        <div class="row">
+          <div class="col p-0">
+            <div class="jumbotron jumbotron-fluid text-center secondJumb">
+              <h1 class="display-1 mainText align-self-center">Life Is Better On a Bike!</h1>
+            </div>
+          </div>
+        </div>
+        
+
+
+      
+    </div>
+
+    <footer class="container-fluid text-center">
+      <div class="col pt-5">
+        <a class="footerLink" href="">О нас</a>
+      </div>
+      <div class="col pt-5">
+        <a class="footerLink" href="">Контакты</a>
+      </div>
+      <div class="col pt-5">
+        <a class="footerLink" href="">Обратная связь</a>
+      </div>
+      <div class="col pt-5">
+        <a class="footerLink" href="">Гарантия</a>
+      </div>
+      <div class="col pt-5">
+        <a class="footerLink" href="">Сотрудничество</a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="/style/sidebar.js"></script>
+  </body>
+</html>
