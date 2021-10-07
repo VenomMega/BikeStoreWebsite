@@ -21,48 +21,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style/sidebar.css">
-    <title>Document</title>
+    <title>Bikes Like Daggers</title>
 </head>
 <body id="body">
-    <nav class="navbar navbar-expand align-middle border-bottom">
-        <a href="index.html" class="navbar-brand">Bikes <br> like <br> daggers</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-md align-middle bg-white navbar-light border-bottom">
+    <a href="index.html" class="navbar-brand">Bikes <br> like <br> daggers</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li>
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
-          </ul>
-            <ul class="navbar-nav ml-auto">
-              <!-- <li class="nav-item text-center"><a href="#" class="nav-link navbarText"><i class="fas fa-user navbarIcon"></i><br>Sign in</a></li> -->
-              <!-- <li class="nav-item text-center"><a href="#" class="nav-link navbarText"><i class="fas fa-map-marked-alt navbarIcon"></i><br>Stores</a></li> -->
-              <li>
-                <div id="mySidebar" class="sidebar">
-                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                  <a href="login.html"><i class="fas fa-user navbarIcon"></i>  Sign in</a>
-                  <a href="registration.html"><i class="fas fa-user navbarIcon"></i>  Register</a>
-                  <a href="#"><i class="fas fa-map-marked-alt navbarIcon"></i>  Stores</a>
-                  <a href="#">Contacts</a>
-                  <a href="#"></a>
-                </div>
-                
-                <div id="main">
-                  <button class="openbtn" onclick="openNav()">&#9776;</button>
-                </div>
-              </li>
-            </ul>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+        <li class="nav-item small"><a class="nav-link" href="login.html"><i class="fas fa-user navbarIcon"></i> Sign in</a></li>
+        <li class="nav-item small"><a class="nav-link" href="registration.html"><i class="fas fa-user navbarIcon"></i> Register</a></li>
+        <li class="nav-item small"><a class="nav-link" href="#"><i class="fas fa-map-marked-alt navbarIcon"></i> Stores</a></li>
+      </ul>
+        <ul class="navbar-nav ml-auto">
+          <li>
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="login.html"><i class="fas fa-user navbarIcon"></i>  Sign in</a>
+              <a href="registration.html"><i class="fas fa-user navbarIcon"></i>  Register</a>
+              <a href="#"><i class="fas fa-map-marked-alt navbarIcon"></i>  Stores</a>
+              <a href="#"></a>
+            </div>
             
-        </div>
-    </nav>
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+          </li>
+        </ul>
+        
+    </div>
+</nav>
     <div class="container-fluid">
         <div class="row categories">
             <div class="col">
@@ -104,11 +98,11 @@
         </div>
 
         <div class="row mb-5">
-          <div class="col d-flex justify-content-around text-center align-middle test-col">
-            <a href="#" class="rounded"><div class="categor indoorCycling"><span class="rounded">Indoor Cycling</span></div></a>
-            <a href="#" class="rounded"><div class="categor bikeParts"><span class="rounded">Bike Parts</span></div></a>
-            <a href="#" class="rounded"><div class="categor bikeApparel"><span class="rounded">Bike Apparel</span></div></a>
-            <a href="#" class="rounded"><div class="categor bikes"><span class="rounded">Bikes</span></div></a>
+          <div class="col-md col-sm-5 pl-0 pr-0 d-md-flex justify-content-around text-center align-middle test-col">
+            <a href="#" class="rounded"><div class="categor mt-3 indoorCycling"><span class="rounded">Indoor Cycling</span></div></a>
+            <a href="#" class="rounded"><div class="categor mt-3 bikeParts"><span class="rounded">Bike Parts</span></div></a>
+            <a href="#" class="rounded"><div class="categor mt-3 bikeApparel"><span class="rounded">Bike Apparel</span></div></a>
+            <a href="#" class="rounded"><div class="categor mt-3 bikes"><span class="rounded">Bikes</span></div></a>
           </div>
         </div>
 
@@ -246,7 +240,7 @@
         <a class="footerLink" href="">О нас</a>
       </div>
       <div class="col pt-3">
-        <a class="footerLink" href="">Контакты</a>
+        <a class="footerLink" href="contacts.html">Контакты</a>
       </div>
       <div class="col pt-3">
         <a class="footerLink" href="">Обратная связь</a>
