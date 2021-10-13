@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sidebar{
+    width: 300px;
+    background: #1d1d1d ;
+    color: #fff;
+    min-height: calc(100vh);
+}
+.sidebar ul{
+    padding-left: 0 !important;
+}
+.sidebar .nav-bar li{
+    list-style: none;
+    line-height: 50px;
+    padding: 10px;
+}
+.sidebar .nav-bar li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.sidebar .nav-bar li:hover{
+    background: #ffc958;
+}
+.sidebar .nav-bar li:hover a{
+    color: #fff;
+}
+.working-panel{
+    width: 100%;
+}
+.bg-orange{
+    background: #ffc958;
+}
