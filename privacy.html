@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/login.css">
+    <link rel="stylesheet" href="/style/sidebar.css">
+    <link rel="stylesheet" href="/style/text.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Login</title>
+</head>
+
+<body id="body">
+    <nav class="navbar navbar-expand-md align-middle bg-white navbar-light border-bottom">
+        <a href="index.html" class="navbar-brand">Bikes <br> like <br> daggers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Location</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Contacts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+                <li class="nav-item small"><a class="nav-link" href="login.html"><i class="fas fa-user navbarIcon"></i>
+                        Sign in</a></li>
+                <li class="nav-item small"><a class="nav-link" href="registration.html"><i
+                            class="fas fa-user navbarIcon"></i> Register</a></li>
+                <li class="nav-item small"><a class="nav-link" href="#"><i class="fas fa-map-marked-alt navbarIcon"></i>
+                        Stores</a></li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="login.html"><i class="fas fa-user navbarIcon"></i> Sign in</a>
+                        <a href="registration.html"><i class="fas fa-user navbarIcon"></i> Register</a>
+                        <a href="#"><i class="fas fa-map-marked-alt navbarIcon"></i> Stores</a>
+                        <a href="#"></a>
+                    </div>
+
+                    <div id="main">
+                        <button class="openbtn" onclick="openNav()">&#9776;</button>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <section class="privacy mt-5 mb-5">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-lg">
+                    <h3>Privacy And Policy</h3>
+                    <p>
+                        Simple Bike Store are committed to protecting your privacy. We will only use the information
+                        that we collect about you lawfully (in accordance with the Data Protection Act 1998). We collect
+                        information about you for 2 reasons: firstly, to process your order and secondly to provide you
+                        with the best service possible. We will not email you in the future unless you have given us
+                        your consent. We will give you the chance to refuse any marketing email from us in the future.
+                        <br> <br>
+                        The type of information we will collect about you when you place an order or register on our web
+                        site includes:
+                        <br> <br>
+                        Address <br>
+                        Phone Number <br>
+                        Email Address <br>
+                        Credit/Debit card details <br>
+                        This information is already stored on our internal systems and our website simply verifies you
+                        as a customer of Simple Bike Store. We will never collect sensitive information about you
+                        without your explicit consent. The information we hold will be accurate and up to date. You can
+                        check the information that we hold about you by visiting your account or emailing us. If you
+                        find any inaccuracies we will delete or correct it promptly. The personal information that we
+                        hold will be held securely in accordance with our internal security policy and the law. We will
+                        not transfer or sell your information. We may use technology to track the patterns of behaviour
+                        of visitors to our site. If you have any questions/comments about privacy, you should email us
+                        at info@simplebikestore.eu
+
+                    </p>
+                    <h3>Use of personal information</h3>
+                    <p>
+
+                        We use the information you provide for the following purposes: <br> <br>
+
+                        To send updates regarding the status of your enquiry or order <br>
+                        To send newsletters and details of offers and promotions in which we believe you will be
+                        interested <br>
+                        To improve the design and content of the www.simplebikestore.eu website <br>
+                        To understand the buying behaviour of our registered users <br>
+                        To perform other general marketing and promotional activities focused on our products and
+                        services <br>
+                        When you place an order we need to know your name, email address, delivery address, credit or
+                        <br>
+                        debit card number and the card's expiry date. This allows us to process and fulfill your order
+                        <br>
+                        and to notify you of the status of your request. We may also ask for your telephone number which
+                        <br>
+                        enables us to contact you urgently if there is a problem with your order.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-9 m-auto text-center">
+                    <h1>Join Our Club</h1>
+                    <input type="text" placeholder="Enter Your Email" name="" id="">
+                    <button class="btn2">Submit</button>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-lg-11 m-auto">
+                    <div class="row">
+                        <div class="col-lg-3 py-3">
+                            <h5>Information</h5>
+                            <p>Contacts</p>
+                            <p>About</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Information</h5>
+                            <p>Contacts</p>
+                            <p>About</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5>Information</h5>
+                            <p>Contacts</p>
+                            <p>About</p>
+                        </div>
+                        <div class="col-lg-3 py-3">
+                            <h5 class="pb-3">Social Media</h5>
+                            <span><i class="fab fa-facebook"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-google-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="text-center">Copyright @2021 All Rights Reserved</p>
+        </div>
+    </section>
+
+
+    <script src="/style/sidebar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
